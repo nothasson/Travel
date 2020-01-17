@@ -1,8 +1,5 @@
 <template>
-  <div>
-    <div>home</div>
-    <router-link to='./link'>List</router-link>
-  </div>
+  <div>Hello world</div>
 </template>
 <script>
 export default {
