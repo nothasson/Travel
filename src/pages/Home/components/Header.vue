@@ -27,8 +27,10 @@ export default {
     flex: 1;
     background: #fff;
     border-radius: 0.1rem;
-    margin-top: 0.64rem;
-    margin-left :.2rem;
+    line-height: 0.64rem;
+    height: 0.64rem;
+    margin-top: 0.12rem;
+    margin-left: 0.2rem;
   }
 
   .header-right {
