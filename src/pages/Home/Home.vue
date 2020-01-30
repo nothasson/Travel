@@ -49,7 +49,7 @@ export default {
         // this.topIcon = data.topIcon;
         this.weekendList = data.weekendList;
       }
-    }
+     }
   },
   mounted() {
     this.getHomeInfo();
