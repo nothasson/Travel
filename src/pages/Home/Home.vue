@@ -35,10 +35,10 @@ export default {
     };
   },
   methods: {
-    getHomeInfo() {
-      axios.get("/api/index.json").then(this.getHomeInfoSucc);
+    getCityInfo() {
+      axios.get("/api/index.json").then(this.getCityInfoSucc);
     },
-    getHomeInfoSucc(res) {
+    getCityInfoSucc(res) {
       res = res.data;
       if (res.ret && res.data) {
         const data = res.data;
@@ -52,7 +52,7 @@ export default {
      }
   },
   mounted() {
-    this.getHomeInfo();
+    this.getCityInfo();
   }
 };
 </script>
