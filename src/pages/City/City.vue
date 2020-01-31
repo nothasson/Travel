@@ -1,7 +1,7 @@
 <template>
   <div>
     <city-header></city-header>
-    <city-search></city-search>
+    <city-search :cities="cities"></city-search>
     <city-list :hotCities="hotCities" :cities="cities" :letter="letter"></city-list>
     <city-alphabet :cities="cities" @change="handleLetterChange"></city-alphabet>
   </div>
@@ -23,13 +23,7 @@ export default {
       letter: ""
     };
   },
-  computed: {
-    letters() {
-      const letters = [];
-      for (let i in this.cities) letters.push(i);
-      return letters;
-    }
-  },
+
   components: {
     CityHeader,
     CitySearch,
