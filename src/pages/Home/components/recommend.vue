@@ -65,6 +65,7 @@ export default {
 
     .item-button {
       background: #ff9300;
+      border-style: none;
       padding: 0 0.2rem;
       border-radius: 0.06rem;
       margin-top: 0.16rem;
