@@ -64,7 +64,7 @@ export default {
     background: #fff;
     width: 100%;
     height: 0;
-    padding-bottom: 50%;
+    padding-bottom: 100%;
 
     .gallery-img {
       width: 100%;
