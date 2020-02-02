@@ -36,10 +36,10 @@ export default {
     };
   },
   methods: {
-    handleGalleryClick(){
-      this.$emit('close')
+    handleGalleryClick() {
+      this.$emit("close");
     }
-  },
+  }
 };
 </script>
 
